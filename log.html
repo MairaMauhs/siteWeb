@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>La vie douce</title>
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    
+        <script type="text/javascript">
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                } else {
+                    $('nav').removeClass('black');
+                }
+            });
+        </script>
+    
+    </head>
+    
+  
+  <body>
+        
+    
+    <div class="wrapper">
+        <nav>
+            <div>
+            
+            <div class="logo">Cadastro</div>
+            <ul>
+                <li><a href="index.html">Voltar</a></li>
+                <li><a href="Car.html">Cardápios</a></li>
+                <li><a href="pre.html">Preços</a></li>
+                <li><a href="out.html">Outros</a></li>
+               
+            </ul>
+        </div>
+        </nav>
+
+        <section class="sec9"></section>
+        
+        <section class="contato-bg">
+            <div class="central-bg">
+                <div class="form">
+        <form name="formContato" action="enviar.php" method="POST">
+            <p class="nome">
+                <span>Nome:</span><input type="text" name="nome" required="required">
+            </p>
+
+            <p class="email">
+                <span>E-mail:</span><input type="text" name="email" required="required">
+            </p>
+
+            <p class="telefone">
+                <span>Telefone:</span><input type="text" name="telefone" required="required">
+            </p>
+
+            <p class="msg">
+                <span>Mensagem:</span><textarea name="msg"></textarea>
+            </p>
+            <p class="btn">
+                <input type="submit" name="button" value="Enviar"><br>
+            </p>
+
+        </form>
+            <div class="infor-cont">
+            <div class="endereco-cont">
+                <span>Endereço</span>
+                <p>Rio Grande do Sul - RS</p>
+                <p>Shopping</p>
+                <span class="ver-maps"><a href="https://www.google.com.br/maps/@-29.7692829,-51.1459045,3a,75y,265.99h,93.41t/data=!3m6!1e1!3m4!1sTb-6ed49t3RP09DpM-GN2Q!2e0!7i16384!8i8192" target="_blank"></a></span>
+            </div>
+                <div class="sep">
+                </div>
+            <div class="email-tel">
+                <span>Email &amp; Telefone</span>
+                <p>Laviedouce@gmail.com</p>
+                <p>00 00 0000-0000<br><br>
+                     1111-1111
+                </p>
+            </div>
+                 <div class="sep">
+                </div>
+            <div class="horario-cont">
+                <span><img src="img/on-min.png" alt=""> Horário</span>
+                <p> Aberto segunda a sábado 8:30 - 19:30<br><br>
+                    Domingo e Feriado 11:00 - 17:00</p>
+                </div>
+                <div id="voltarTopo">
+                    <a href="log.html" id="subir"><font size="+3">Topo</font></a>
+                </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
+</html>
